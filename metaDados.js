@@ -23,6 +23,7 @@ $(document).ready(function(){
 
     let vTitulo = metaDados.body["login-form"].titulo;
     let objt = $('#titulo'/* , '#'+compName */);
+    let objt2 = $('#'+compName);
     $(objt).html('Hello World');
 
   }
