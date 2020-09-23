@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   function loadComponente(compName) {
     $('body').prepend('<div id="'+compName+'"> Teste Preapend div</div>');
-    $('#'+compName).load('../template-basico/login-form/login-form.html');
+    $('#'+compName).load('https://italoibiapina.github.io/code-base-mock/template-basico/login-form/login-form.html');
 
 
   }
