@@ -22,6 +22,7 @@ $(document).ready(function(){
     $('#'+compName).load('https://italoibiapina.github.io/code-base-mock/template-basico/login-form/login-form.html');
 
     let vTitulo = metaDados.body["login-form"].titulo;
-    $('#'+compName, '#titulo').html('Hello World');
+    let objt = $('#'+compName, '#titulo');
+    $(objt).html('Hello World');
 
   }
