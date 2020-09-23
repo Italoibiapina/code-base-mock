@@ -21,5 +21,7 @@ $(document).ready(function(){
     $('body').prepend('<div id="'+compName+'"> Teste Preapend div</div>');
     $('#'+compName).load('https://italoibiapina.github.io/code-base-mock/template-basico/login-form/login-form.html');
 
+    let vTitulo = metaDados.body["login-form"].titulo;
+    $('#titulo','#'+compName).html('Hello World');
 
   }
