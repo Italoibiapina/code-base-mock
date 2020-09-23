@@ -8,7 +8,7 @@ metaDados =
 }
 
 $(document).ready(function(){
-    alert('on ready !');
+    //alert('on ready !');
     /* $("p").click(function(){
       $(this).hide();
     }); */
@@ -22,7 +22,7 @@ $(document).ready(function(){
     $('#'+compName).load('https://italoibiapina.github.io/code-base-mock/template-basico/login-form/login-form.html');
 
     let vTitulo = metaDados.body["login-form"].titulo;
-    let objt = $('#'+compName, '#titulo');
+    let objt = $('#titulo', '#'+compName);
     $(objt).html('Hello World');
 
   }
